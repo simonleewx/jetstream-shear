@@ -1,4 +1,4 @@
-# jetstream-shear
+# Shear in the North Atlantic jet stream
 
 The Python files here produce the analyses presented in "Increased shear in the North Atlantic upper level jet stream over 
 the past four decades" (Simon H. Lee, Paul D. Williams, and Thomas H. A. Frame: Nature, 2019). 
