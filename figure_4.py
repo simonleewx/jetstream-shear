@@ -233,7 +233,7 @@ climo_jra = np.mean(speed_annual_jra,axis=0)
 level = 250.
 
 #===================================== NCEP ============================================
-os.chdir("/storage/shared/glusterfs/arise/fh004579/jetstream/ncep_ncar")
+os.chdir(ncep_dir)
 
 # Array to store annual-mean temperature
 ann_mean_gradient = np.zeros((len(years),17,32))
@@ -299,7 +299,7 @@ for i in range(np.shape(ann_mean_gradient)[1]):
 pvals_sig_ncep_twb = np.ma.masked_greater(pvals_ncep_twb,0.05)
 
 #================================================== ERA ===============================================
-os.chdir("/storage/shared/glusterfs/arise/fh004579/jetstream/era_t")
+os.chdir(era_dir)
 
 # Get all filenames
 directory = os.getcwd()
@@ -364,7 +364,7 @@ pvals_sig_era_twb = np.ma.masked_greater(pvals_era_twb,0.05)
 
 #================================================ JRA ==================================================
 # Set working directory
-os.chdir("/storage/shared/glusterfs/arise/fh004579/jetstream/jra_t")
+os.chdir(jra_dir)
 
 # List to store files sorted by year
 file_list = np.chararray((len(years),12),itemsize=51)
