@@ -5,3 +5,5 @@ the past four decades" (Simon H. Lee, Paul D. Williams, and Thomas H. A. Frame: 
 
 The datasets used are available from the NCAR RDA website for JRA-55 and ERA-Interim (https://rda.ucar.edu/) 
 and the NOAA ftp server for NCEP/NCAR (ftp://ftp.cdc.noaa.gov/Datasets/ncep.reanalysis/).
+
+Contact: s.h.lee@pgr.reading.ac.uk
