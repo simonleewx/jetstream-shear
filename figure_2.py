@@ -236,7 +236,7 @@ for year in years:
 	lats_tropic = lats[lat_tropic1:lat_tropic2+1]
 	
 	lonidx1 = np.where(lons==280)[0][0]
-	lonidx2 = np.where(lons==357.5)[0][0]
+	lonidx2 = np.where(lons==350)[0][0]
 
 	# Lats and lons of Atlantic sector
 	lons_ncep = lons[lonidx1:lonidx2+1]
