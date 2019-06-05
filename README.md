@@ -8,4 +8,5 @@ and the NOAA ftp server for NCEP/NCAR (ftp://ftp.cdc.noaa.gov/Datasets/ncep.rean
 
 For further methodological information please consult the paper.
 
+All code authored by Simon Lee, Ph.D. student in the Department of Meteorology at the University of Reading, U.K.
 Contact: s.h.lee@pgr.reading.ac.uk
