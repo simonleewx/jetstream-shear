@@ -35,7 +35,7 @@ for count,year in enumerate(years):
 	latidx1 = np.where(lats==70)[0][0]
 	latidx2 = np.where(lats==30)[0][0]
 	lonidx1 = np.where(lons==280)[0][0]
-	lonidx2 = np.where(lons==357.5)[0][0]
+	lonidx2 = np.where(lons==350)[0][0]
 
 	lats_ncep = lats[latidx1:latidx2+1]
 	lons_ncep = lons[lonidx1:lonidx2+1]
